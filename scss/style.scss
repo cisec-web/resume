@@ -1,0 +1,122 @@
+
+@import 'vendors/_bootstrap.scss';
+
+/* Vars */
+
+$primaryColor: #3B5A76;
+$bgColor: #EDEDED;
+$textColor: #363636;
+$fontSize: 16px;
+
+
+body {
+    padding-bottom: 0px;
+    font-family: 'Open Sand', Arial, Tahoma;
+    color: $textColor;
+    background: $bgColor;
+    font-size: $fontSize;
+}
+
+h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    font-size: 1.5em;
+}
+
+.primary, strong, h2 {
+    color: $primaryColor;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.container-main {
+    margin-top: 80px;
+    background: #FFF;
+    padding: 0 30px 30px 30px;
+}
+
+header {
+    min-height: 100px;
+    overflow: auto;    
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 1.4m;
+}
+
+.profile-img {
+    display: block;
+    width: 160px;
+    margin: auto;
+    margin-top: -80px;    
+}
+
+.line {
+    max-width: 100%;
+}
+
+.contact-info {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    list-style: none;
+    font-weight: bold;
+    line-height: 3.23m;
+}
+
+.media {
+    background: $bgColor;
+    padding: 10px; 
+}
+
+.media-left {
+    padding-right: 40px; 
+}
+
+.projects {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin-botto: 30px;    
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    height: 80px;
+}
+
+footer li {
+    float: right;
+    list-style: none;
+    padding: 0 20px 0 10px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: yellow !important
+}
+
+footer p {
+    font-size: 16px;
+    border: 1px red;
+}
