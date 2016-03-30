@@ -8208,34 +8208,26 @@ header h1 {
   list-style: none;
   float: left;
   padding: 0;
-  margin-botto: 30px;
+  margin-bottom: 30px;
 }
 
 footer {
-  background: #333;
-  color: white;
-  padding-top: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 20px;
-  height: 80px;
-}
-
-footer li {
-  float: right;
-  list-style: none;
-  padding: 0 20px 0 10px;
+    background: #333;
+    color: white;
+    text-align: center;
+    overflow: hidden;
 }
 
 footer a {
-  color: white;
+    margin: 15px 10px 15px 10px;
+    color: white;
 }
 
 footer a:hover {
-  color: yellow !important;
+    background-color: yellow !important;
+    color: #555 !important;
 }
 
 footer p {
-  font-size: 16px;
-  border: 1px red;
+    margin: 10px;
 }
